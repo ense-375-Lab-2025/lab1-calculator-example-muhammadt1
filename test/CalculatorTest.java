@@ -8,6 +8,8 @@ public class CalculatorTest {
     @Test
     void testAddition() {
         assertEquals(5, calculator.add(2, 3));
+        //if it doesnt equal 5, assertion occurs,
+        //test fails -> moves on.
     }
 
     @Test
